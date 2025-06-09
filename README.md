@@ -1,6 +1,6 @@
 # 🎬 Netflix Clone
 
-A sleek and responsive **Netflix Clone** built using **React**, **JavaScript**, **CSS**, **Firebase Authentication**, and the **IMDb API**. Browse trending shows, search movies, and stream trailers with a polished UI and real-time user authentication.
+A sleek and responsive **Netflix Clone** built using **React**, **JavaScript**, **CSS**, **Firebase Authentication**, and the **IMDb API**. Browse trending shows and movies with a polished UI and real-time user authentication.
 
 ---
 
