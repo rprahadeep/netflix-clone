@@ -28,14 +28,22 @@ const Home = () => {
               <img src={info_icon}></img>More Info
             </button>
           </div>
-          <TitleCards></TitleCards>
+          <TitleCards
+            title={'Top Picks for You'}
+            category={'top_rated'}
+          ></TitleCards>
         </div>
       </div>
       <div className="more-cards">
-        <TitleCards title={'Blockbuster Movies'}></TitleCards>
-        <TitleCards title={'Only on Netflix'}></TitleCards>
-        <TitleCards title={'Upcoming'}></TitleCards>
-        <TitleCards title={'Top Picks for You'}></TitleCards>
+        <TitleCards
+          title={'Blockbuster Movies'}
+          category={'popular'}
+        ></TitleCards>
+        <TitleCards
+          title={'Only on Netflix'}
+          category={'now_playing'}
+        ></TitleCards>
+        <TitleCards title={'Upcoming'} category={'upcoming'}></TitleCards>
       </div>
       <Footer></Footer>
     </div>
